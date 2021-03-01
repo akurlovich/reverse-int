@@ -1,15 +1,8 @@
 module.exports = function reverse (n) {
   if (n < 0) {
     n = n * (-1);
+    return (+n.toFixed(0).split('').reverse().join(''));
   } else {
-    n.toString().split().reverse()
+    return (+n.toFixed(0).split('').reverse().join(''));
   }
-}
-
-
-let n = 432;
-if (n < 0) {
-  n = n * (-1);
-} else {
-  console.log(n.toString().split());
 }
